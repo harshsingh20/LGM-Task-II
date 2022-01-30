@@ -34,7 +34,7 @@ class App extends Component {
           <div className="box">
             <div className="r">
             <div className="col1">
-            <h2>Bonanza</h2>
+            <h2>Unsplash</h2>
             </div>
             <div className="col2">
             <button onClick={this.updateState}>Get Users</button>
@@ -45,8 +45,6 @@ class App extends Component {
         <div className="box2">
          <Users loading={this.state.loading} users={this.state.users_data}/>
          </div>
-         
-         
     </>
     )
   }

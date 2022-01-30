@@ -5,10 +5,10 @@ button{
   border-radius: 5px;
   border: none;
   background-color: rgb(12, 224, 153);
-  padding: 12px 10px;
+  padding: 12px 12px;
 }
 button:hover{
-  transition: 200ms;
+ transition: 200ms;
  scale:1.03;
  background-color: rgb(166, 192, 17);
 }
@@ -16,20 +16,24 @@ button:hover{
 .col1{
   height: 100%;
   float: left;
-  width: 90%;
+  /* width: 90%; */
 }
 .col2{
   height: 100%;
   float: left;
-  width: 10%;
+  /* width: 10%; */
 }
 .r{
   height: 50px;
   padding: 20px 50px 0px 30px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .box{
-  background-color: rgb(93, 245, 4) !important;
+  background-color: black !important;
 }
 
 .box2{
@@ -52,7 +56,7 @@ h2{
 
 
 .profile {
-  border: 2px solid rgb(255, 166, 255);
+  border: 2px solid black;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   max-width: 200px;
   margin: 10px 5px;
@@ -61,6 +65,8 @@ h2{
   padding: 15px;
   border-radius: 18px;
   background-color: rgb(192, 105, 138);
+  width: 201px;
+  height: 270px;
 }
 
 .profile:hover{
@@ -78,7 +84,11 @@ h2{
   font-weight: bold;
 }
 .loader{
-  margin-left: 300px;
-  margin-top: 100px;
+  margin-left: 451px;
+  margin-top: 162px;
   margin-right: 80px;
+}
+h2{
+  padding-left: 50px;
+  color: rgb(12, 224, 153);
 }
